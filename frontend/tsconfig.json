@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    // Vue SFC and browser code share ES2020/DOM types; Vite controls output bundling.
+    "target": "ES2020",
+    "module": "ESNext",
+    // Bundler resolution matches Vite; strict enables checks and noEmit skips output files.
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "types": ["vite/client"]
+  },
+  "include": ["src/**/*.ts", "src/**/*.vue", "vite.config.ts"]
+}

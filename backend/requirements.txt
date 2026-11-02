@@ -1,0 +1,10 @@
+# FastAPI API 服务与本地开发服务器。
+fastapi==0.115.6
+pydantic-settings==2.7.1
+pydantic==2.10.6
+# SQLAlchemy 异步 ORM 和 SQLite 异步驱动。
+SQLAlchemy==2.0.44
+aiosqlite==0.21.0
+# ASGI 客户端用于 API 集成测试；Uvicorn 用于运行后端。
+httpx==0.28.1
+uvicorn[standard]==0.34.0
